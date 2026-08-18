@@ -39,7 +39,7 @@ export default function Footer() {
               aria-label="Tomar Techworks Home"
             >
               <img
-                src="/images/brand/tomar-techworks-footer-logo-transparent.PNG"
+                src="/images/brand/tomar-techworks-footer-logo-transparent.png"
                 alt="Tomar Techworks"
                 className="h-12 w-auto object-contain"
               />
@@ -110,19 +110,19 @@ export default function Footer() {
 
             <div className="mt-5 space-y-4">
               <a
-                href="mailto:hello@tomarlabs.in"
+                href="mailto:tomartechworks@gmail.com"
                 className="flex items-start gap-3 text-sm text-white/50 transition-colors hover:text-white"
               >
                 <Mail size={17} className="mt-0.5 shrink-0" />
-                <span>hello@tomarlabs.in</span>
+                <span>tomartechworks@gmail.com</span>
               </a>
 
               <a
-                href="tel:+919999999999"
+                href="tel:+918767311963"
                 className="flex items-start gap-3 text-sm text-white/50 transition-colors hover:text-white"
               >
                 <Phone size={17} className="mt-0.5 shrink-0" />
-                <span>+91 99999 99999</span>
+                <span>+91 8767 311963</span>
               </a>
 
               <div className="flex items-start gap-3 text-sm text-white/50">
