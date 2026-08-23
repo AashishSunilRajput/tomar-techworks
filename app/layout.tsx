@@ -43,7 +43,7 @@ export default function RootLayout({
         <Footer />
          <Script
     src="http://localhost:4173/widget.js?v=1"
-    data-key="ar_live_test123456789"
+    data-key="ar_live_9SNRUzfW7Q4zZtBM"
     strategy="afterInteractive"
   />
       </body>
