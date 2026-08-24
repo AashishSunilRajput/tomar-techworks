@@ -46,16 +46,17 @@ export default function AISolutions() {
               AI Solutions
             </div>
 
-            <h2 className="mt-6 max-w-2xl text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
-              Give your business an AI assistant that knows your business.
-            </h2>
+           <h2 className="mt-6 max-w-2xl text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
+  AI Chatbot Solutions for Your Business
+</h2>
 
-            <p className="mt-6 max-w-xl text-base leading-7 text-white/60 sm:text-lg">
-              Meet{" "}
-              <span className="font-semibold text-white">AR AI Chat</span> —
-              an AI-powered customer support chatbot designed to answer
-              business-specific questions and help capture customer leads.
-            </p>
+           <p className="mt-6 max-w-xl text-base leading-7 text-white/60 sm:text-lg">
+  Meet{" "}
+  <span className="font-semibold text-white">TT AI Chat</span> — an
+  AI-powered customer support chatbot that uses your business knowledge
+  to answer customer questions, provide instant support and capture
+  qualified leads.
+</p>
 
             {/* Features */}
             <div className="mt-8 grid gap-3 sm:grid-cols-2">
@@ -76,10 +77,10 @@ export default function AISolutions() {
             {/* CTA */}
             <div className="mt-9">
               <Link
-                href="/solutions/ai-chatbot"
+                href="https://chat.tomartechworks.com/"
                 className="group inline-flex items-center gap-2 rounded-full bg-white px-6 py-3.5 text-sm font-semibold text-navy transition-all hover:bg-blue-50"
               >
-                Explore AR AI Chat
+                Explore TT AI Chat
                 <ArrowRight
                   size={17}
                   className="transition-transform duration-200 group-hover:translate-x-1"
@@ -114,7 +115,7 @@ export default function AISolutions() {
 
                   <div>
                     <p className="text-sm font-semibold text-navy">
-                      AR AI Chat
+                      TT AI Chat
                     </p>
 
                     <div className="mt-0.5 flex items-center gap-1.5">

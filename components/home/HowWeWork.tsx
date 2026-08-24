@@ -65,14 +65,15 @@ export default function HowWeWork() {
             How We Work
           </span>
 
-          <h2 className="mt-4 text-3xl font-bold tracking-tight text-navy sm:text-4xl lg:text-5xl">
-            From idea to launch, with a clear process.
-          </h2>
+         <h2 className="mt-4 text-3xl font-bold tracking-tight text-navy sm:text-4xl lg:text-5xl">
+  Our Web Development & Software Development Process
+</h2>
 
           <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-gray-600 sm:text-lg">
-            We keep the development process straightforward, transparent and
-            focused on what matters to your business.
-          </p>
+  Our web and software development process is straightforward, transparent
+  and focused on delivering reliable technology solutions that support your
+  business goals.
+</p>
         </motion.div>
 
         {/* Steps */}

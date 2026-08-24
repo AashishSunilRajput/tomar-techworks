@@ -29,18 +29,19 @@ export default function FinalCTA() {
           </div>
 
           {/* Heading */}
-          <h2 className="mt-6 text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl lg:text-6xl">
-            Have an idea?
-            <br />
-            <span className="text-cyan-300">Let&apos;s turn it into reality.</span>
-          </h2>
+         <h2 className="mt-6 text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl lg:text-6xl">
+  Ready to Build Your
+  <br />
+  <span className="text-cyan-300">Next Digital Solution?</span>
+</h2>
 
           {/* Description */}
-          <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-white/60 sm:text-lg">
-            Whether you need a new website, custom software, an AI solution or
-            ongoing technical support, let&apos;s discuss what your business
-            needs.
-          </p>
+        <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-white/60 sm:text-lg">
+  Whether you need website development, custom software, AI chatbot
+  solutions, e-commerce development or ongoing technical support,
+  Tomar Techworks can help turn your business requirements into a
+  practical digital solution.
+</p>
 
           {/* Buttons */}
           <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">

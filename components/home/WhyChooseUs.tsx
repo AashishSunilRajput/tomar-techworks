@@ -56,15 +56,16 @@ export default function WhyChooseUs() {
               Why Tomar Techworks
             </span>
 
-            <h2 className="mt-4 max-w-xl text-3xl font-bold leading-tight tracking-tight text-navy sm:text-4xl lg:text-5xl">
-              Technology should solve problems, not create more of them.
-            </h2>
+           <h2 className="mt-4 max-w-xl text-3xl font-bold leading-tight tracking-tight text-navy sm:text-4xl lg:text-5xl">
+  Why Businesses Choose Tomar Techworks
+</h2>
 
-            <p className="mt-6 max-w-xl text-base leading-7 text-gray-600 sm:text-lg">
-              Whether you need a business website, custom software or an AI
-              solution, we focus on understanding the requirement first and
-              then building the right solution for it.
-            </p>
+           <p className="mt-6 max-w-xl text-base leading-7 text-gray-600 sm:text-lg">
+  Whether you need a business website, custom software, eCommerce
+  platform or AI solution, Tomar Techworks focuses on understanding
+  your requirements first and building practical technology solutions
+  that support your business goals.
+</p>
 
             <Link
               href="/about"

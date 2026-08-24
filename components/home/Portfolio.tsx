@@ -13,12 +13,12 @@ import {
 const projects = [
   {
     category: "AI Product",
-    title: "AR AI Chat",
+    title: "TT AI Chat",
     description:
       "AI-powered customer support chatbot with knowledge base, website widget, lead capture and conversation management.",
     icon: Bot,
     tags: ["AI", "Chatbot", "Knowledge Base"],
-    href: "/solutions/ai-chatbot",
+    href: "https://chat.tomartechworks.com/",
     featured: true,
   },
   {
@@ -70,14 +70,14 @@ export default function Portfolio() {
               Selected Work
             </span>
 
-            <h2 className="mt-4 text-3xl font-bold tracking-tight text-navy sm:text-4xl lg:text-5xl">
-              Ideas turned into digital solutions.
-            </h2>
+           <h2 className="mt-4 text-3xl font-bold tracking-tight text-navy sm:text-4xl lg:text-5xl">
+  Web, Software & AI Solutions We Build
+</h2>
 
-            <p className="mt-5 max-w-2xl text-base leading-7 text-gray-600 sm:text-lg">
-              From AI products and business websites to custom software, we
-              build digital solutions designed around real business needs.
-            </p>
+           <p className="mt-5 max-w-2xl text-base leading-7 text-gray-600 sm:text-lg">
+  Explore examples of AI products, business websites, custom software
+  and e-commerce solutions built to solve real business needs.
+</p>
           </div>
 
           <Link

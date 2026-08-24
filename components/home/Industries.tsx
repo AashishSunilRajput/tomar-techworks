@@ -73,14 +73,15 @@ export default function Industries() {
               Industries
             </span>
 
-            <h2 className="mt-4 text-3xl font-bold tracking-tight text-navy sm:text-4xl lg:text-5xl">
-              Technology for businesses across industries.
-            </h2>
+           <h2 className="mt-4 text-3xl font-bold tracking-tight text-navy sm:text-4xl lg:text-5xl">
+  Technology Solutions for Different Industries
+</h2>
 
             <p className="mt-5 max-w-2xl text-base leading-7 text-gray-600 sm:text-lg">
-              Every business has different challenges. We adapt our approach
-              to your industry, customers and business goals.
-            </p>
+  We build websites, custom software, AI solutions and digital tools
+  tailored to the needs of different industries, customers and business
+  goals.
+</p>
           </div>
 
           <p className="max-w-xs text-sm leading-6 text-gray-500 lg:text-right">

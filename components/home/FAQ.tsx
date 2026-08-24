@@ -17,8 +17,8 @@ const faqs = [
   },
   {
     question: "Do you provide AI chatbot solutions?",
-    answer:
-      "Yes. Our AI solution, AR AI Chat, can be integrated into business websites to answer customer questions using business-specific knowledge, capture leads and manage conversations.",
+   answer:
+  "Yes. Our AI solution, TT AI Chat, can be integrated into business websites to answer customer questions using business-specific knowledge, capture leads and manage conversations.",
   },
   {
     question: "Can you integrate my website with other software?",
@@ -67,13 +67,14 @@ export default function FAQ() {
             </span>
 
             <h2 className="mt-4 text-3xl font-bold leading-tight tracking-tight text-navy sm:text-4xl">
-              Questions? We&apos;ve got answers.
-            </h2>
+  Frequently Asked Questions About Our Technology Services
+</h2>
 
             <p className="mt-5 max-w-md text-base leading-7 text-gray-600">
-              Here are some of the questions businesses commonly ask before
-              starting a project with us.
-            </p>
+  Find answers to common questions about website development, custom
+  software, AI chatbot solutions, e-commerce development and ongoing
+  technical support.
+</p>
 
             <div className="mt-8 rounded-2xl bg-surface p-5">
               <p className="text-sm font-semibold text-navy">
