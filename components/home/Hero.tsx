@@ -58,7 +58,7 @@ export default function Hero() {
               </Link>
 
               <Link
-                href="/solutions/ai-chatbot"
+                href="/services/ai-solutions"
                 className="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 bg-white px-6 py-3.5 text-sm font-semibold text-navy transition-all hover:border-blue-200 hover:bg-blue-50"
               >
                 <MessageCircle size={17} />

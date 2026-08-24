@@ -243,7 +243,7 @@ export default function AISolutionsPage() {
                 </span>
 
                 <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl">
-                  AR AI Chat
+                  TT AI Chat
                 </h2>
 
                 <p className="mt-5 max-w-2xl text-base leading-7 text-white/60">
@@ -253,7 +253,7 @@ export default function AISolutionsPage() {
                 </p>
 
                 <Link
-                  href="/contact"
+                  href="https://chat.tomartechworks.com/"
                   className="group mt-7 inline-flex items-center gap-2 text-sm font-semibold text-cyan-300"
                 >
                   Discuss AI Chat for Your Business

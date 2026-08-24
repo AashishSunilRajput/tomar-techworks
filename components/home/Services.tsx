@@ -40,9 +40,9 @@ const services = [
   {
     number: "04",
     icon: Bot,
-    title: "AI Solutions",
-    description:
-      "AI-powered chatbots and automation solutions that help businesses serve customers better.",
+    title: "AI Chatbot & Automation Solutions",
+   description:
+  "AI-powered chatbots and automation solutions that help businesses serve customers better.",
     href: "/services/ai-solutions",
   },
   {
@@ -79,15 +79,15 @@ export default function Services() {
             What We Do
           </span>
 
-          <h2 className="mt-4 text-3xl font-bold tracking-tight text-navy sm:text-4xl lg:text-5xl">
-            Technology solutions built around your business.
-          </h2>
+         <h2 className="mt-4 text-3xl font-bold tracking-tight text-navy sm:text-4xl lg:text-5xl">
+  Web Development, Software & AI Solutions for Businesses
+</h2>
 
           <p className="mt-5 max-w-2xl text-base leading-7 text-gray-600 sm:text-lg">
-            From your first website to custom software and AI-powered
-            solutions, we help businesses build, improve and maintain their
-            digital presence.
-          </p>
+  From website development and e-commerce platforms to custom software,
+  AI chatbot solutions and business integrations, Tomar Techworks helps
+  businesses build and grow their digital presence.
+</p>
         </motion.div>
 
         {/* Services Grid */}
