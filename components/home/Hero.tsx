@@ -31,17 +31,18 @@ export default function Hero() {
 
             {/* Heading */}
             <h1 className="max-w-3xl text-5xl font-bold leading-[1.05] tracking-tight text-navy sm:text-6xl lg:text-7xl">
-              Build Better.
-              <br />
-              <span className="gradient-text">Grow Faster.</span>
-            </h1>
+  Web, Software &
+  <br />
+  <span className="gradient-text">AI Solutions </span>
+  for Your Business
+</h1>
 
             {/* Description */}
             <p className="mt-7 max-w-2xl text-lg leading-8 text-gray-600 sm:text-xl">
-              We build modern websites, custom software and AI solutions that
-              help businesses work smarter, serve customers better and grow
-              with confidence.
-            </p>
+  Tomar Techworks builds modern websites, custom software, AI chatbot
+  solutions and eCommerce platforms that help businesses work smarter,
+  serve customers better and grow.
+</p>
 
             {/* CTAs */}
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">

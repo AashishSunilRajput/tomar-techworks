@@ -18,9 +18,64 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tomar Techworks | Technology Solutions for Businesses",
+  metadataBase: new URL("https://tomartechworks.com"),
+
+  title: {
+    default: "Tomar Techworks | Web, Software & AI Solutions",
+    template: "%s | Tomar Techworks",
+  },
+
   description:
-    "Tomar Techworks builds modern websites, custom software, AI solutions and integrations for growing businesses.",
+    "Tomar Techworks provides modern website development, custom software, AI chatbot solutions, eCommerce development and technology services for businesses.",
+
+  keywords: [
+    "Tomar Techworks",
+    "web development",
+    "website development",
+    "custom software development",
+    "AI chatbot development",
+    "AI solutions",
+    "eCommerce development",
+    "WordPress development",
+    "Next.js development",
+    "PHP development",
+  ],
+
+  authors: [
+    {
+      name: "Tomar Techworks",
+      url: "https://tomartechworks.com",
+    },
+  ],
+
+  creator: "Tomar Techworks",
+  publisher: "Tomar Techworks",
+
+  alternates: {
+    canonical: "https://tomartechworks.com/",
+  },
+
+  openGraph: {
+    type: "website",
+    locale: "en_IN",
+    url: "https://tomartechworks.com/",
+    siteName: "Tomar Techworks",
+    title: "Tomar Techworks | Web, Software & AI Solutions",
+    description:
+      "Modern website development, custom software, AI chatbot solutions and eCommerce development for businesses.",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Tomar Techworks | Web, Software & AI Solutions",
+    description:
+      "Modern website development, custom software, AI chatbot solutions and eCommerce development for businesses.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
@@ -41,11 +96,12 @@ export default function RootLayout({
         </main>
 
         <Footer />
-         <Script
-    src="http://localhost:4173/widget.js?v=1"
-    data-key="ar_live_9SNRUzfW7Q4zZtBM"
-    strategy="afterInteractive"
-  />
+
+       {/* <Script
+          src="https://widget.chat.tomartechworks.com/widget.js"
+          data-widget-key="ar_live_9SNRUzfW7Q4zZtBM"
+          strategy="afterInteractive"
+        /> */}
       </body>
     </html>
   );
