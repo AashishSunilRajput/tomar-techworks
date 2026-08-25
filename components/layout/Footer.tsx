@@ -153,7 +153,7 @@ export default function Footer() {
               </Link>
 
               <Link
-                href="/terms"
+                href="/terms-and-conditions"
                 className="transition-colors hover:text-white"
               >
                 Terms & Conditions
