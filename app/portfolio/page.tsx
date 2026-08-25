@@ -15,7 +15,7 @@ import {
 
 const projects = [
   {
-    title: "AR AI Chat",
+    title: "TT AI Chat",
     category: "AI Solutions",
     description:
       "An AI-powered website chat solution designed to help businesses answer visitor questions using their own business knowledge and information.",
