@@ -330,7 +330,7 @@ if (!cleanName) {
                 {/* Email */}
 
                 <a
-                  href="mailto:tomartechworks@gmail.com"
+                  href="mailto:account@tomartechworks.com"
                   className="flex items-center gap-4 rounded-2xl border border-gray-200 p-5 transition hover:border-blue-200 hover:shadow-sm"
                 >
 
@@ -345,7 +345,7 @@ if (!cleanName) {
                     </p>
 
                     <p className="mt-1 text-sm font-semibold text-navy">
-                      tomartechworks@gmail.com
+                      account@tomartechworks.com
                     </p>
 
                   </div>

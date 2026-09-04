@@ -110,11 +110,11 @@ export default function Footer() {
 
             <div className="mt-5 space-y-4">
               <a
-                href="mailto:tomartechworks@gmail.com"
+                href="mailto:account@tomartechworks.com"
                 className="flex items-start gap-3 text-sm text-white/50 transition-colors hover:text-white"
               >
                 <Mail size={17} className="mt-0.5 shrink-0" />
-                <span>tomartechworks@gmail.com</span>
+                <span>account@tomartechworks.com</span>
               </a>
 
               <a
