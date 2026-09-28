@@ -5,7 +5,7 @@ import "./globals.css";
 
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
-import Script from "next/script";
+import { MotionConfig } from "framer-motion";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -89,19 +89,13 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <Navbar />
+        <MotionConfig reducedMotion="user">
+          <Navbar />
 
-        <main className="flex-1">
-          {children}
-        </main>
+          <div className="flex-1">{children}</div>
 
-        <Footer />
-
-       {/* <Script
-          src="https://widget.chat.tomartechworks.com/widget.js"
-          data-widget-key="ar_live_9SNRUzfW7Q4zZtBM"
-          strategy="afterInteractive"
-        /> */}
+          <Footer />
+        </MotionConfig>
       </body>
     </html>
   );

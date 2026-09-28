@@ -75,12 +75,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
 
-    // AI Chatbot
-    {
-      url: `${baseUrl}/solutions/ai-chatbot`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
   ];
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import {
   ArrowUpRight,
   Mail,
@@ -30,7 +31,7 @@ export default function Footer() {
     <footer className="bg-[#071027] text-white">
       <div className="container-main">
         {/* Main Footer */}
-        <div className="grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-[1.2fr_0.8fr_1.2fr_1fr] lg:py-20">
+        <div className="grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-[1.2fr_0.8fr_1.2fr_1fr] lg:py-16">
           {/* Brand */}
           <div>
             <Link
@@ -38,10 +39,13 @@ export default function Footer() {
               className="inline-flex items-center"
               aria-label="Tomar Techworks Home"
             >
-              <img
+              <Image
                 src="/images/brand/tomar-techworks-footer-logo-transparent.png"
                 alt="Tomar Techworks"
-                className="h-12 w-auto object-contain"
+                width={680}
+                height={240}
+                sizes="170px"
+                className="h-11 w-auto object-contain"
               />
             </Link>
 
@@ -73,7 +77,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-white/50 transition-colors hover:text-white"
+                    className="rounded-sm text-sm text-white/50 transition-colors hover:text-white"
                   >
                     {link.label}
                   </Link>
@@ -93,7 +97,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-white/50 transition-colors hover:text-white"
+                    className="rounded-sm text-sm text-white/50 transition-colors hover:text-white"
                   >
                     {link.label}
                   </Link>
@@ -111,7 +115,7 @@ export default function Footer() {
             <div className="mt-5 space-y-4">
               <a
                 href="mailto:account@tomartechworks.com"
-                className="flex items-start gap-3 text-sm text-white/50 transition-colors hover:text-white"
+                className="flex items-start gap-3 rounded-sm text-sm text-white/50 transition-colors hover:text-white"
               >
                 <Mail size={17} className="mt-0.5 shrink-0" />
                 <span>account@tomartechworks.com</span>
@@ -119,7 +123,7 @@ export default function Footer() {
 
               <a
                 href="tel:+918767311963"
-                className="flex items-start gap-3 text-sm text-white/50 transition-colors hover:text-white"
+                className="flex items-start gap-3 rounded-sm text-sm text-white/50 transition-colors hover:text-white"
               >
                 <Phone size={17} className="mt-0.5 shrink-0" />
                 <span>+91 8767 311963</span>
@@ -147,14 +151,14 @@ export default function Footer() {
             <div className="flex items-center gap-5">
               <Link
                 href="/privacy-policy"
-                className="transition-colors hover:text-white"
+                className="rounded-sm transition-colors hover:text-white"
               >
                 Privacy Policy
               </Link>
 
               <Link
                 href="/terms-and-conditions"
-                className="transition-colors hover:text-white"
+                className="rounded-sm transition-colors hover:text-white"
               >
                 Terms & Conditions
               </Link>
